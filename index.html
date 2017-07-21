@@ -1,0 +1,194 @@
+<!Doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styledone.css">
+    <title>Maket-Teddy</title>
+</head>
+    <body>
+        <header>
+            <div class="header-top">
+                <a href="#" class="header-top__link">
+                    <img class="header-top__link--fb" src="src/svg/fb.svg" alt="FB">
+                </a>
+                <a href="#" class="header-top__link">
+                    <img class="header-top__link--tw" src="src/svg/twitter.svg" alt="Twitter">
+                </a>
+                <a href="#" class="header-top__link">
+                    <img class="header-top__link--Instagram" src="src/svg/Instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" class="header-top__link">
+                    <img class="header-top__link--ok" src="src/svg/ok.svg" alt="ok">
+                </a>
+            </div>
+            <div class="header-center">
+                <h2 class="header-center__name">ME_TO_YOU.BY</h2>
+                <span class="header-center__description">Интернет-магазин детских товаров и игрушек</span>
+                <p class="header-center__phone">+375-17-336-33-33</p>
+            </div>
+            <div class="header-bottom">
+                <div class="header-item">
+                    <img src="src/img/teddi-logo.png" alt="teddy" class="header-item__img">
+                    <img src="src/svg/teddy-logo.svg" alt="loto-teddy" class="header-item__logo">
+                </div>
+                <div class="header-registration">
+                    <a href="#" class="header-registration__entrance">Вход </a> /
+                    <a href="#" class="header-registration__reg">Регистрация</a>
+                </div>
+            </div>
+        </header>
+        <nav class="navigation">
+                <label class="navigation-central__btn btn-menu" onclick="down()" for="main-menu">Меню магазина</label>
+                <input type="checkbox" id="main-menu">
+                <label class="navigation-central__btn btn-nav" for="check-menu">Навигация</label>
+                <input type="checkbox" id="check-menu">
+                <div class="navigation-central">
+                    <svg class="navigation-central__home">
+                            <use xlink:href="src/svg/home.svg#homeItem" class="navigation-central__home--item"></use>
+                    </svg>
+                    <ul class="nav-menu">
+                        <li><a href="#" class="navigation-central__about">О Компании</a></li>
+                        <li><a href="#" class="navigation-central__shop">Магазин</a></li>
+                        <li><a href="#" class="navigation-central__news">Новости</a></li>
+                        <li><a href="#" class="navigation-central__delivery">Доставка и оплата</a></li>
+                        <li><a href="#" class="navigation-central__scale">Акции</a></li>
+                        <li><a href="#" class="navigation-central__contacts">Контакты</a></li>
+                    </ul>
+                </div>
+        </nav>
+        <main class="main-part">
+            <aside class="menu visible-menu">
+                <input type="text" class="menu__search"  placeholder="Поиск по сайту" name="search">
+                <ul class="main-menu" id="menuJS">
+                    <li><a href="#" class="menu__sale">Расспродажа</a></li>
+                    <li><a href="#" class="menu__clothes">Детская одежда</a></li>
+                    <li><a href="#" class="menu__shoes">Детская обувь</a></li>
+                    <li><a href="#" class="menu__furniture">Детская мебель</a></li>
+                    <li><a href="#" class="menu__technique">Детская техника</a></li>
+                    <li><a href="#" class="menu__newborn">Товары для новорожденных</a></li>
+                    <li><a href="#" class="menu__creation">Товары для творчества</a></li>
+                    <li><a href="#" class="menu__hygienics">Товары для гигиены</a></li>
+                    <li><a href="#" class="menu__games">Игры</a></li>
+                    <li><a href="#" class="menu__toys-pl">Игрушки пластмассовые</a></li>
+                    <li><a href="#" class="menu__toys-soft">Игрушки мягкие</a></li>
+                    <li><a href="#" class="menu__other">Другие сопутствующие товары</a></li>
+                </ul>
+            </aside>
+            <div class="central-part">
+                <div class="slider">
+                    <div class="slider__btn--pre"></div>
+                    <div class="slider__base">
+                        <img src="src/img/scroll-teddy.jpg" alt="sale-picture" class="active">
+                        <img src="src/img/teddy-last.jpg" alt="sale-picture">
+                        <img src="src/img/teddy-life.jpg" alt="sale-picture">
+                        <img src="src/img/teddy-toys.jpg" alt="sale-picture">
+                    </div>
+                    <div class="slider__btn--next"></div>
+                </div>
+                <div class="basket">
+                    <img src="src/svg/basket.svg" alt="basket" class="basket__photo">
+                    <div class="basket__goods-numbers">Выбрано товаров: (0)</div>
+                    <input type="button" class="basket__button" value="Оформить покупку">
+                </div>
+                <div class="products">
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                    <div class="product">
+                        <img src="src/img/item.jpg" alt="product" class="product__item">
+                        <h3 class="product__name">Мишка Тедди</h3>
+                        <p class="product__description">Мягкий серый мишка в бежевом свитере</p>
+                        <span class="product__price">30р.</span>
+                        <button class="product__button"></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer__delivery">
+                <p class="footer__delivery--info">Осуществляется доставка по Беларуси: Гродно, Могилев, Брест,
+                    Витебск, Минск</p>
+                <p class="footer__delivery--info">Дата внесения в торговый реестр 01.02.2016 УНП 590759415</p>
+            </div>
+            <div class="footer__company">
+                <p class="footer__company--text">Правообладатель интернет-ресурса ИП Иванов Иван Иванович
+                </p>
+            </div>
+            <div class="footer">
+                <a href="#" class="footer__link">
+                    <img class="header-top__link--fb" src="src/svg/fb.svg" alt="FB">
+                </a>
+                <a href="#" class="footer__link">
+                    <img class="header-top__link--tw" src="src/svg/twitter.svg" alt="Twitter">
+                </a>
+                <a href="#" class="footer__link">
+                <img class="header-top__link--Instagram" src="src/svg/Instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" class="footer__link">
+                    <img class="header-top__link--ok" src="src/svg/ok.svg" alt="ok">
+                </a>
+            </div>
+        </footer>
+    <script src="src/js/jquery-3.2.1.min.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/menuDown.js"></script>
+    </body>
+</html>
