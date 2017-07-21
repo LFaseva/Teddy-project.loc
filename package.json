@@ -1,0 +1,24 @@
+{
+  "name": "maket-test.loc",
+  "version": "1.0.0",
+  "description": "Самая первая комплектация",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LFaseva/maket-test.loc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LFaseva/maket-test.loc/issues"
+  },
+  "homepage": "https://github.com/LFaseva/maket-test.loc#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-postcss": "^7.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "homepage": "https://github.com/LFaseva/maket-test.loc",
+  "authors": [
+    "Elena <lfaseva@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
